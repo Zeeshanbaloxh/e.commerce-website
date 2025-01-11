@@ -6,7 +6,7 @@ import cors from 'cors';
 import fs from 'fs';
 import jwt from 'jsonwebtoken';
 
-const port = 4000;
+const port = process.env.PORT || 4000;
 const app = express();
 
 
